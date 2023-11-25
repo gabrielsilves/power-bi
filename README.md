@@ -18,15 +18,19 @@ Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoi
 
 #### Estrutura da base de dados
 
-Arquivo em excel que contém inicialmente as seguintes colunas:
+Base de dados em [excel](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/DadosFinanceiros.xlsx) que contém inicialmente as seguintes colunas:
 - Tipo
 - Componente
 - Datas em formato Amplo
 
-Estruturação de Dados;
-- Tranformação de dados amplos para estruturados
+Estruturação de Dados:
 
-Medidas DAX a partir dos dados:
+Tranformação de dados amplos para estruturados utilizando [Power Query / M Language](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/tranpose.pq)
+
+
+
+Medidas [DAX](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/medidas-dax.dax)
+ criadas a partir dos dados:
 - Lucro
 - Margem de Lucro
 - Total Despesa
