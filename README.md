@@ -29,8 +29,7 @@ Tranformação de dados amplos para estruturados utilizando [Power Query / M Lan
 
 
 
-#### Medidas [DAX](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/medidas-dax.dax)
- criadas a partir dos dados:
+#### Medidas [DAX](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/medidas-dax.dax) criadas a partir dos dados:
 - Lucro
 - Margem de Lucro
 - Total Despesa
