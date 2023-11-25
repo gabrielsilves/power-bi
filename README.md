@@ -23,13 +23,13 @@ Base de dados em [excel](https://github.com/gabrielsilves/power-bi/blob/main/Das
 - Componente
 - Datas em formato Amplo
 
-Estruturação de Dados:
+#### Estruturação de Dados:
 
 Tranformação de dados amplos para estruturados utilizando [Power Query / M Language](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/tranpose.pq)
 
 
 
-Medidas [DAX](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/medidas-dax.dax)
+#### Medidas [DAX](https://github.com/gabrielsilves/power-bi/blob/main/Dashboard%20Financeiro/medidas-dax.dax)
  criadas a partir dos dados:
 - Lucro
 - Margem de Lucro
