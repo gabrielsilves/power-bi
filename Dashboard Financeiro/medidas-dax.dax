@@ -1,0 +1,32 @@
+Lucro = [TotalReceita] - [TotalDespesa]
+// Calcula o lucro subtraindo o total de despesas do total de receitas.
+***********************************************************************************************
+
+MargemLucro = DIVIDE([Lucro], [TotalReceita], 0)
+// Calcula a margem de lucro dividindo o lucro pelo total de receitas.
+// Utiliza 'DIVIDE' para evitar erros quando [TotalReceita] é zero, retornando 0 nesses casos.
+***********************************************************************************************
+
+TotalDespesa = 
+VAR Resultado = CALCULATE(SUM(DadosFinanceiros[Valor]), DadosFinanceiros[Tipo] = "Despesas")
+// Utiliza a variável 'Resultado' para armazenar o valor somado das despesas.
+// A função CALCULATE modifica o contexto de cálculo para somar apenas as despesas.
+
+RETURN
+IF(ISBLANK(Resultado), 0, Resultado)
+// Verifica se 'Resultado' está em branco com a função ISBLANK.
+// Se 'Resultado' for em branco, retorna 0.
+// Caso contrário, retorna o valor da variável 'Resultado'.
+***********************************************************************************************
+
+TotalReceita = 
+VAR Resultado = CALCULATE(SUM(DadosFinanceiros[Valor]), DadosFinanceiros[Tipo] = "Receitas")
+// Utiliza a variável 'Resultado' para armazenar o valor somado das receitas.
+// A função CALCULATE modifica o contexto de cálculo para somar apenas as receitas.
+
+RETURN
+IF(ISBLANK(Resultado), 0, Resultado)
+// Verifica se 'Resultado' está em branco com a função ISBLANK.
+// Se 'Resultado' for em branco, retorna 0.
+// Caso contrário, retorna o valor da variável 'Resultado'.
+
