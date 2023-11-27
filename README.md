@@ -1,9 +1,15 @@
-<a href="https://app.powerbi.com/view?r=eyJrIjoiMDI5ODc0YjMtZTA1YS00ZWVlLTg1NzItNDI2MWVkYmMxODQ0IiwidCI6Ijc2MjFlMTE2LWJiNmUtNDA1MS1hNWZlLWZhY2E4ZWI3ZWY2ZSJ9" target="_blank">
-                <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" alt="PowerBi" width="120" height="70" />
-        </a>
 
 
-# Portfólio Power BI 📊        
+
+<div style="display: flex; align-items: center;">
+    <h1>Portfólio Power BI</h1>
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiMDI5ODc0YjMtZTA1YS00ZWVlLTg1NzItNDI2MWVkYmMxODQ0IiwidCI6Ijc2MjFlMTE2LWJiNmUtNDA1MS1hNWZlLWZhY2E4ZWI3ZWY2ZSJ9" target="_blank">
+        <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png" alt="PowerBi" width="120" height="70"/>
+    </a>
+</div>
+
+Dashboards elaborados com foco em estudos na ferramenta Looker Data Studio, visando construir um portfólio com cenários reais do dia a dia:
+   
 
 Dashboards elaborados com foco em estudos na ferramenta Looker Data Studio, visando construir um portfólio com cenários reais do dia a dia:
 
